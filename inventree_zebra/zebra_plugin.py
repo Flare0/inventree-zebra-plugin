@@ -67,7 +67,7 @@ class ZebraLabelPlugin(LabelPrintingMixin, SettingsMixin, InvenTreePlugin):
             'name': _('Dots per mm'),
             'description': _('The resolution of the printer'),
             'choices': [(8, '8 dots per mm'), (12, '12 dots per mm'), (24, '24 dots per mm')],
-            'default': 8,
+            'default': 24,
         },
         'PRINTER_INIT': {
             'name': _('Printer Init'),
